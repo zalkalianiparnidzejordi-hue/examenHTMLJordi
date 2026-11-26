@@ -5,8 +5,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <div>
+            <img class="nova" src="logo.svg" alt="">
+        </div>
+        <div class="flex botones">
+            <button class="button1">Activitats</button>
+            <button class="button1">Programa</button>
+            <div class="inscrit">
+                <button class="inscri">Inscriu-t'hi</button>
+                <img src="arrow-up.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="sec1">
+            <div class="div1">
+                <p class="bad">BADALONA · EDICIÓ 2027</p>
+                <p class="fut">EL FUTUR ES CREA <span class="avui">AVUI</span></p>
+                <p class="jor">Una jornada per descobrir la tecnologia,
+                compartir idees i transformar la creativitat en
+                projectes reals.</p>
+                <button>Reserva la teva plaça</button>
+                <div class="flex fecha">
+                    <p>15 maig 2027</p>
+                    <p>Badalona</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="relative">
+                    <img src="hero.jpg" alt="">
+                    <p class="absolute">NOVA / 2027</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="sec2">
+            <p>3 TALLERS</p>
+            <p>1 JORNADA</p>
+            <p>ENTRADA GRATUITA</p>
+        </section>
+        <section class="sec3">
+            <p class="expl">01 / Explora</p>
+            <div class="flex2">
+                <p class="apren">Aprèn fent.</p>
+                <p class="tres">Tres espais per experimentar amb la
+                tecnologia i descobrir noves idees.</p>
+            </div>
+
+            <div class="relative2">
+                <div class="cartas">
+                    <img src="web.jpg" alt="">
+                    <div class="taller">
+                        <p class="tallerp">TALLER / 01</p>
+                        <p class="des">Desenvolupament web</p>
+                        <p class="constru">Construeix experiències digitals amb HTML i
+                        CSS.</p>
+                    </div>
+                    <img class="desing" src="design.jpg" alt="">
+                    <div class="taller2">
+                        <p class="tallerp">TALLER / 02</p>
+                        <p class="des">Disseny digital</p>
+                        <p class="constru">experimenta amb formes, colors i interficies</p>
+                    </div>
+                    <img class="robot" src="robot.jpg" alt="">
+                    <div class="taller3">
+                        <p class="tallerp">TALLER / 03</p>
+                        <p class="des">Robòtica creativa</p>
+                        <p class="constru">Descobreix com connectar el món físic i
+                        digital</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="sec4">
+            <p class="expl">02 / ORGANITZA'T</p>
+            <P class="apren">Programa de la jornada</P>
+            <p class="tres">Una jornada plena de descobriments,
+            creativitat i tecnologia.</p>
+            <table>
+                <thead>
+                    <th>HORA</th>
+                    <th>ACTIVITAT</th>
+                    <th>ESPAI</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:00</td>
+                        <td>Benvinguda</td>
+                        <td>Auditori</td>
+                    </tr>
+                    <tr>
+                        <td>10:00</td>
+                        <td>Tallers pràctics</td>
+                        <td>Laboratori</td>
+                    </tr>
+                    <tr>
+                        <td>12:00</td>
+                        <td>Mostra de projectes</td>
+                        <td>Sala NOVA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="sec5">
+            <div class="todo">
+                    <p class="expl">0/3 PARTICIPA</p>
+                    <p class="apren">Ens veiem a NOVA</p>
+                    <p class="tres">Inscripció gratuïta. Places limitades. Vine
+                    a imaginar el futur amb nosaltres.</p>
+                    <p>15 MAIG 2027 · BADALONA</p>
+                    <form action="">
+                        <label for="nom">Nom complet</label>
+                        <input type="text" id="correo" placeholder="El teu nom">
+                        <label for="correo">Correu electronic</label>
+                        <input type="email" id="correo" placeholder="nom@exemple.cat">
+                        <label for="Taller">Taller preferit</label>
+                        <input type="text" id="Taller" placeholder="Selecciona un taller">
+                        <div class="flex">
+                            <input id="check" type="checkbox">
+                            <label for="check">Acceptos condicions de participacio</label>
+                        </div>
+
+                    </form>
+            </div>
+        </section>
+        <footer>
+            <img class="nova" src="logo.svg" alt="">
+            <p>Festival de tecnologia i creativitat digital</p>
+            <p>C 2027 NOVA · Badalona</p>
+        </footer>
+    </main>
 </body>
 </html>
