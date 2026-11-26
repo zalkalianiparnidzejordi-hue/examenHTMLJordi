@@ -408,5 +408,26 @@ footer{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        padding-bottom: 10px;
+        thead{
+            background-color: #181724;
+            color: white;
+            border: none;
+            th{
+                padding: 150px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border: none;
+            }
+        }
+        tbody{
+            td{
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+        }
+    }
+    .flex3{
+        display: flex;
     }
 }
